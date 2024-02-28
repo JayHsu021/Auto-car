@@ -1,9 +1,9 @@
-pi@jaypi~/wkspace $ python3
-Python 3.9.2 (default, Feb 28 2021, 17:03:44)
-[GCC 10.2.1 20210110] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> import robotcar as car
->>> car.autorun()
+# A Robot car Project
+The Raspberry will read the image from camera and pass to tensorflow for decoding the direction.
+Based on the direction, it will control the two motors.
 
->>> car.car_move("forward")
+# How to run it?
+> python3
+> import robotcar as car
+> car.autorun()
 
